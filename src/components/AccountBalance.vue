@@ -103,6 +103,11 @@ export default defineComponent({
     height: 22pt;
     background-color: $lighter-green;
     color: white;
+    font-weight: bold;
+
+    .block {
+      font-size: 13pt;
+    }
   }
   &__total {
     font-size: 24pt;

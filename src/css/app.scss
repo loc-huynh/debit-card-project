@@ -1,0 +1,23 @@
+// app global css in SCSS form
+body {
+  font-family: $ft-opensans;
+  font-weight: $semi-bold;
+  background-color: $primary;
+  color: $white;
+
+  @media (min-width: $breakpoint-sm-min) {
+    background-color: $white;
+    color: $black;
+
+    .q-item__label {
+      color: $white;
+    }
+  }
+
+  // TODO: temporary for index page vueJS challenge
+  .index-page {
+    background-color: $white;
+    color: $black;
+  }
+
+}

@@ -11,6 +11,11 @@ const routes: RouteRecordRaw[] = [
     component: () => import('src/layouts/DebitsLayout.vue'),
     children: [{ path: '', component: () => import('src/pages/Cards.vue') }],
   },
+  {
+    path: '/game',
+    component: () => import('src/layouts/DebitsLayout.vue'),
+    children: [{ path: '', component: () => import('src/pages/Game.vue') }],
+  },
   // Always leave this as last one,
   // but you can also remove it
   {

@@ -31,7 +31,6 @@
     </h5>
     <p>==================================================================</p>
 
-    chosenWord: {{ chosenWord }}<br />
     <div class="current-word">
       your guess word: <span class="current-word__text">{{ currentWord }}</span>
       <input id="something" type="text" ref="something" @keydown="handleType" />

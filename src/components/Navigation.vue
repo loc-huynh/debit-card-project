@@ -33,12 +33,13 @@
       <q-item
         clickable
         v-ripple
+        @click="navigate('/game')"
       >
         <q-item-section avatar>
           <img :src="require('assets/imgs/Payments.svg')">
         </q-item-section>
 
-        <q-item-section>Payments</q-item-section>
+        <q-item-section>Word Game</q-item-section>
       </q-item>
 
       <q-item
